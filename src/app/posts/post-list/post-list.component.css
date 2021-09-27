@@ -1,0 +1,69 @@
+:host {
+  display: block;
+  margin-top: 1rem;
+}
+
+ textarea, input, mat-expansion-panel {
+  border-color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+mat-card {
+  width: 1000px;
+}
+.custom-button {
+  background-color: rgb(240, 237, 232);
+  color: rgb(131, 121, 94);
+}
+@media only screen and (max-width: 800px) {
+  .custom-button {
+    width: 100%;
+  }
+}
+p {
+  color: grey;
+}
+
+mat-accordion {
+  margin: 120px;
+}
+
+mat-spinner {
+  margin: auto;
+}
+
+.blog-title {
+  font-family: 'Playfair Display', serif;
+  color:rgb(131, 121, 94);
+}
+.card-image {
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+
+mat-expansion-panel {
+  border-color: white;
+}
+
+mat-expansion-panel-header {
+  height: auto;
+  padding: 02%;
+}
+
+.post-image img {
+  max-height: 300px;
+  width: auto;
+  border-radius: 04px;
+  margin: 30px;
+}
+
+.title {
+  text-align: center;
+  float: top;
+  padding-right: 10%;
+  width: 100px;
+}
+
+

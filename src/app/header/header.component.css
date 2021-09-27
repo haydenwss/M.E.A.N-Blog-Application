@@ -1,0 +1,31 @@
+.toolbar-cont {
+  background-color: rgb(131, 121, 94);
+}
+
+img, .svg-icon {
+  max-height: 40px;
+  width: auto;
+  margin: 05px;
+  font-family: 'Playfair Display', serif;
+}
+
+.example-icon {
+  padding: 05px 34px;
+}
+
+
+.mat-toolbar.mat-primary {
+  background-color: #323533;
+
+}
+
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 05px 10px;
+  font-size: 20px;
+  font-weight: 100;
+  color: white;
+  letter-spacing: 3px;
+}

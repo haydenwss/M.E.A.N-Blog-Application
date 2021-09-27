@@ -1,0 +1,43 @@
+section
+ {
+  min-height: 100px;
+  width: 100%;
+  padding-top: 18%;
+  font-size: 30px;
+  font-weight: 900;
+  position: relative;
+  text-align: center;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url("https://images.unsplash.com/photo-1597692493647-35763cb92183?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2800&q=80");
+ }
+
+ .overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.45);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+ p {
+  color: white;
+ }
+
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}

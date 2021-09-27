@@ -1,0 +1,68 @@
+mat-card {
+  border-color: pink;
+
+}
+
+mat-form-field {
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.custom-button {
+  background-color: rgb(240, 237, 232);
+  color: rgb(131, 121, 94);
+}
+
+@media only screen and (max-width: 800px) {
+  .custom-button {
+    width: 100%;
+  }
+}
+
+text-header, h1 {
+  font-size: 50px;
+  font-family: 'Playfair Display', serif;
+}
+
+@media only screen and (max-width: 800px) {
+  .text-header {
+    font-size: 30px;
+  }
+}
+
+textarea {
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+mat-grid-tile, .grid-image {
+  text-align: center;
+  background-size: cover;
+  width: 100%;
+
+}
+
+mat-spinner {
+  margin: auto;
+}
+
+
+
+input[type="file"] {
+  visibility: hidden;
+}
+
+.image-preview {
+  height: 10rem;
+  margin: 1rem 0;
+
+}
+
+.image-preview img {
+  height: 100%;
+  width: auto;
+  border-radius: 04px;
+}
+
+
